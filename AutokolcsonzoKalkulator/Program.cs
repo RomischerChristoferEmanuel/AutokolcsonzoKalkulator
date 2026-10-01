@@ -20,6 +20,9 @@ for (int i = 0; ; i++)
             string nev=("Bérlő neve: ");
             Console.WriteLine($"Kölcsönzött napok(db): {napok}");
             Console.WriteLine($"VIP tag(true/false): {viptag}");
+            Console.WriteLine("Rögzített kölcsönzések díjai:");
+            Console.WriteLine($"bérlés: {tizotkedv}");
+            ossze.Add(tizotkedv);
             
         }
         else
@@ -29,6 +32,9 @@ for (int i = 0; ; i++)
             string nev = ("Bérlő neve: ");
             Console.WriteLine($"Kölcsönzött napok(db): {napok}");
             Console.WriteLine($"VIP tag(true/false): {viptag}");
+            Console.WriteLine("Rögzített kölcsönzések díjai:");
+            Console.WriteLine($"-bérlés: {tizotkedv}");
+            ossze.Add(tizotkedv);
 
         }
 
@@ -39,6 +45,9 @@ for (int i = 0; ; i++)
             string nev = ("Bérlő neve: ");
             Console.WriteLine($"Kölcsönzött napok(db): {napok}");
             Console.WriteLine($"VIP tag(true/false): {viptag}");
+            Console.WriteLine("Rögzített kölcsönzések díjai:");
+            Console.WriteLine($"-bérlés: {tizotkedv}");
+            ossze.Add(tizotkedv);
         }
         else
         {
@@ -47,8 +56,11 @@ for (int i = 0; ; i++)
             string nev = ("Bérlő neve: ");
             Console.WriteLine($"Kölcsönzött napok(db): {napok}");
             Console.WriteLine($"VIP tag(true/false): {viptag}");
-            
-            
+            Console.WriteLine("Rögzített kölcsönzések díjai:");
+            Console.WriteLine($"-bérlés: {tizotkedv}");
+            ossze.Add(tizotkedv);
+
+
         }
         
      
@@ -64,10 +76,13 @@ for (int i = 0; ; i++)
         Console.WriteLine($"Bérlő neve: {nev}");
         Console.WriteLine($"Kölcsönzött napok(db): {napok}");
         Console.WriteLine($"VIP tag(true/false): {viptag}");
+        Console.WriteLine("Rögzített kölcsönzések díjai:");
+        Console.WriteLine($"-bérlés: {tizotkedv}");
+        ossze.Add(tizotkedv);
     }
 
     //3.feladat
-
+    
     
 }
 
