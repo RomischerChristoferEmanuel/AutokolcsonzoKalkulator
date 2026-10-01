@@ -80,9 +80,31 @@ for (int i = 0; ; i++)
         Console.WriteLine($"-bérlés: {tizotkedv}");
         ossze.Add(tizotkedv);
     }
-
+    int tizotkedv = napok * napidij;
     //3.feladat
-    
+    double napteljes = tizotkedv * ossze[0];
+    if (napteljes<100000)
+    {
+        Console.WriteLine($"Napi teljes bevétel: {napteljes}");
+
+        Console.WriteLine("Gyenge forgalmú nap.");
+
+        if (napteljes < 200000)
+        {
+            Console.WriteLine($"Napi teljes bevétel: {napteljes}");
+
+            Console.WriteLine("Átlagos forgalmú nap. ");
+        }
+
+        else
+        {
+            Console.WriteLine($"Napi teljes bevétel: {napteljes}");
+
+            Console.WriteLine("Kiemelkedő forgalmú nap!");
+        }
+    }
+    Console.WriteLine($"Napi teljes bevétel: {napteljes}");
+
     
 }
 
